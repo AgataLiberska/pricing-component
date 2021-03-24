@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [View the solution on Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-grid-bem-naming-PpEg1Mc-I)
+- [View the live site](https://pricing-component-sepia.vercel.app/)
 
 ## Built with
 
