@@ -8,43 +8,51 @@
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Join our community
+  <main>
+    <section class="pricing">
+      <div class="pricing__join">
+        <h1 class="pricing__join__heading">
+          Join our community
+        </h1>
+        <h2 class="pricing__join__subheading">
+          30-day, hassle-free money back guarantee
+        </h2>
+        <p class="pricing__join__tagline">
+          Gain access to our full library of tutorials along with expert code reviews. 
+          Perfect for any developers who are serious about honing their skills.
+        </p>
+      </div>
 
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <div class="pricing__subscription">
+        <h2 class="pricing__subscription__heading">
+          Monthly Subscription
+        </h2>
+        <span class="pricing__subscription__price">&dollar;29 
+          <span class="pricing__subscription__price-month">per month</span>
+        </span>
+        <p class="pricing__subscription__details">
+          Full access for less than &dollar;1 a day
+        </p>
+        <button class="pricing__subscription__cta">
+          Sign Up
+        </button>
+      </div>
+      
+      <div class="pricing__why-us">
+        <h2 class="pricing__why-us__heading">Why Us</h2>
+        <ul class="pricing__why-us__list">
+          <li class="pricing__why-us__list__item">Tutorials by industry experts</li>
+          <li class="pricing__why-us__list__item">Peer &amp; expert code review</li>
+          <li class="pricing__why-us__list__item">Coding exercises</li>
+          <li class="pricing__why-us__list__item">Access to our GitHub repos</li>
+          <li class="pricing__why-us__list__item">Community forum</li>
+          <li class="pricing__why-us__list__item">Flashcard decks</li>
+          <li class="pricing__why-us__list__item">New videos every week</li>
+        </ul>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
